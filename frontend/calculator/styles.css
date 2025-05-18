@@ -1,0 +1,40 @@
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+#calculator{
+   background-color: hsl(0, 0%, 15%); 
+   border-radius: 20px;
+   max-width: 500px;
+   overflow: hidden;
+
+}
+#display{
+    width:100%;
+    padding:20px;
+    font-size: 4rem;
+    text-align: left;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    
+    
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 3rem;
+    
+}
+button:hover{
+    background-color:hsl(0, 0%, 37%);
+}
+.operator{
+    background-color: orange;
+}
